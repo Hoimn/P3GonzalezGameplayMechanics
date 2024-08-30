@@ -11,12 +11,13 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemyRB = GetComponent<Rigidbody>();
-        player = GameObject.Find("Player");
+        player = GameObject.Find("BCP");
     }
 
     // Update is called once per frame
     void Update()
     {
-        enemyRB.AddForce((player.transform.position - transform.position).normalized * speed);
+        Vector3 lookDirection = (player.transform.position - transform.position).normalized;
+        enemyRB.AddForce(lookDirection * speed);
     }
 }
