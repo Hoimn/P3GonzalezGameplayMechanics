@@ -624,6 +624,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
+      propertyPath: powerupIndicator
+      value: 
+      objectReference: {fileID: 2561742555737212249, guid: 71ee16e6d2c9afd428c9436a0c17bdf1, type: 3}
     - target: {fileID: 5539838526290022519, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
       propertyPath: m_Name
       value: BCP
