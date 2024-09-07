@@ -304,6 +304,7 @@ MonoBehaviour:
   enemyCount: 1
   waveNumber: 3
   powerupPrefabs:
+  - {fileID: 7044574405230018177, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
   - {fileID: 6505317582284699558, guid: 227c478323f856e4685553db553d4d4f, type: 3}
   - {fileID: 6505317582284699558, guid: 7ce6740b0d7fd44488435b997233cdd0, type: 3}
 --- !u!4 &996398017
@@ -380,6 +381,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78835eebeeaa8ae4c852e22894cacfd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1068795056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5943127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.65736103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.840838
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872177296065180755, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044574405230018177, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
+      propertyPath: m_Name
+      value: PowerupSmash
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 213916c2f42fd7c44be8cfa1cd0a20b1, type: 3}
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,9 +741,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
+      propertyPath: hangTime
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
+      propertyPath: smashSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
       propertyPath: rocketPrefab
       value: 
       objectReference: {fileID: 8373123645325709800, guid: c89ff4dcd89e1aa43b285e052a6e2182, type: 3}
+    - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
+      propertyPath: explosionForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
+      propertyPath: explosionRadius
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3360339525221652442, guid: 01d2b5d03d605f84db205bcc10502826, type: 3}
       propertyPath: powerupIndicator
       value: 
@@ -824,3 +898,4 @@ SceneRoots:
   - {fileID: 1003021609}
   - {fileID: 996398017}
   - {fileID: 519027180}
+  - {fileID: 1068795056}
